@@ -59,6 +59,24 @@ npm run build
 npm run preview
 ```
 
+## 🚀 Deployment
+
+### Deploy to GitHub Pages
+
+Deploy your app to GitHub Pages in minutes:
+
+```bash
+# Quick deploy (manual method)
+npm run deploy
+```
+
+For detailed deployment instructions including automated GitHub Actions setup, see [DEPLOYMENT.md](DEPLOYMENT.md).
+
+**Live Demo**: Replace with your GitHub Pages URL after deployment
+```
+https://YOUR_USERNAME.github.io/map-of-robotics/
+```
+
 ## 🎮 Usage
 
 ### Navigation
