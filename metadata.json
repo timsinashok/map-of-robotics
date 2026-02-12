@@ -1,0 +1,5 @@
+{
+  "name": "RoboMap: Interactive Robotics Research",
+  "description": "A modern, interactive 2D navigable map of robotics research directions, visualizing the field from foundations to modern learning-based approaches.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoboMap - Robotics Research Map</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Rajdhani', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              tech: {
+                900: '#0b0c10', // Deepest background
+                800: '#1f2833', // Panel background
+                700: '#c5c6c7', // Muted text
+                500: '#45a29e', // Primary Accent (Teal)
+                400: '#66fcf1', // Bright Accent (Cyan)
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body, html, #root {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
+      
+      /* Industrial Chamfer utility */
+      .chamfer {
+        clip-path: polygon(
+          12px 0, 100% 0, 
+          100% calc(100% - 12px), calc(100% - 12px) 100%, 
+          0 100%, 0 12px
+        );
+      }
+      .chamfer-sm {
+        clip-path: polygon(
+          6px 0, 100% 0, 
+          100% calc(100% - 6px), calc(100% - 6px) 100%, 
+          0 100%, 0 6px
+        );
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "d3": "https://esm.sh/d3@^7.9.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
