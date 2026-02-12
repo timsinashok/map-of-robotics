@@ -1,8 +1,4 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# RoboMap: Interactive Robotics Research Map
+# Map of Robotics
 
 An interactive, navigable 2D visualization of the robotics research landscape. Explore 60+ research topics across 7 major domains, from fundamental algorithms to cutting-edge learning-based approaches.
 
